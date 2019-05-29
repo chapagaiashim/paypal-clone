@@ -15,11 +15,9 @@ body {
 }
 li {
   list-style: none;
-  padding: 20px;
 }
 a {
   text-decoration: none;
-  padding: 25px;
 }
 .btn {
   padding: 10px 20px;
@@ -33,6 +31,9 @@ a {
 }
 .hover-grey:hover {
   background-color: rgba(128, 128, 128, 0.61);
+}
+.display-flex {
+  display: flex;
 }
 /* Container */
 .container {
@@ -68,6 +69,10 @@ a {
   justify-content: space-between;
   line-height: 70px;
   height: 70px;
+}
+
+.nav-item {
+  padding: 0px 30px;
 }
 
 .logo-box {
@@ -109,3 +114,156 @@ a {
 .header-button {
   padding: 20px 60px;
 }
+
+/* N1 Block */
+.n1{
+   margin: 89px 15px 0px 15px;
+}
+.n1-image-box {
+  height: 400px;
+  width: 50%;
+}
+.n1-image{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.n1-text-box  {
+  width: 50%;
+  text-align: left;
+  margin: 105px 0px ;
+  line-height: 25px;
+}
+
+.n1-text-box-header {
+  font-size: 25px;
+  color: #9fa0a0;
+}
+
+.n1-text-box-para {
+  color: #9fa0a0;
+  font-weight: 300;
+}
+
+.n1-link{
+  padding: 0px 20px 0px 0px;
+}
+
+/* N2 Block */
+.n2 {
+  background: url(/img/2.jpg);
+  height: 500px;
+  background-size: cover;
+  color: white;
+}
+ .n2 a {
+   color: white;
+ }
+ .n2-text-box  {
+  width: 50%;
+  text-align: left;
+  line-height: 25px;
+  padding : 240px 0px 0px 138px;
+}
+
+.n2-text-box-header {
+  font-size: 25px;
+  color: #fff;
+}
+
+.n2-text-box-para {
+  color: #fff;
+  font-weight: 300;
+}
+
+.n2-link:hover {
+  text-decoration: underline;
+}
+/* N3 block */
+.n3 {
+  background: #004497;
+  height: 410px;
+  color: white;
+}
+
+.n3-text-box {
+  text-align: center;
+  padding: 87px 0px;
+}
+
+.n3-para {
+  padding: 30px 0px;
+  line-height: 30px;
+}
+.n3-header {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.n3-link:hover {
+  text-decoration: underline;
+}
+
+/* N4 Block */
+
+.n4 {
+  height: 530px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.n4-img-box {
+  height: 100%;
+  width: 30%;
+  background: url(/img/3.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 64px 0px 0px 167px;
+}
+
+.n4-text-box {
+  text-align: left;
+  line-height: 25px;
+}
+
+.n4-header {
+  font-size: 28px;
+}
+
+.n4-para {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.n4-link:hover {
+  text-decoration: underline;
+}
+
+/* N5 block */
+.n5{
+  height: 293px;
+  text-align: center;
+  background: #f7f9fa;
+  margin-top: 32px;
+  align-items: center;
+  justify-content: center;
+  line-height: 60px;
+}
+
+.n5-header {
+  font-size: 28px;
+  color: #2c2e35;
+}
+
+.n5-link {
+  background-color: #0770ba;
+  color: #fff;
+  padding: 15px 90px;
+  font-size: 15px;
+}
+
+.n5-link:hover {
+  text-decoration: underline;
+}
+
